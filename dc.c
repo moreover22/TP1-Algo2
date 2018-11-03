@@ -198,7 +198,7 @@ bool _resta(pila_t * pila, int * resultado) {
 	int operando_2;
 	if(!obtener_dos_operandos(pila, &operando_1, &operando_2))
 		return false;
-	*resultado = -operando_1 + operando_2;
+	*resultado = operando_1 - operando_2;
 	return true;
 }
 bool _multiplicacion(pila_t * pila, int * resultado) {
